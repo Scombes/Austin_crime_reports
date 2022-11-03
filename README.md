@@ -1,5 +1,5 @@
 # City of Austin, TX Crime Reports 2016 - 2022
-## Using data from the city of Austin, TX, to explore and discover trends in reported Crimes.
+## Using data from the city of Austin, TX, to explore and discover trends in reported crimes.
 
 [Download Data](https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu)
 
