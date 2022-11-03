@@ -6,16 +6,16 @@
 [View Tableau Dashboard](https://bit.ly/3DCHXJ9)
 
 ### Process:
-1. Downloaded data and opened in Excel.
-2. Original download contained over 22 Million records. For this exploration, I decided to use only the last seven years. 
-3. Prepared/Cleaned that data to make it ready to load into MYSQL Database.
-4. Used a variety of queries and commands to explore the data further and find insights. [View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
-5. Used query results to help create visuals in Tableau.
+1. Original download contained over 22 Million records. For this exploration, I decided to use only the last seven years. 
+2. Prepared/Cleaned the data to make it ready to load into MYSQL Database.
+    - Formatted date and datetime fields to work with MYSQL
+    - Removed fields not needed for exploration.
+3. Used a variety of queries and commands to explore the data further and find insights. [View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
+4. Used query results to help create visuals in Tableau.
 
 ### Takeaways:
 - Reported crimes are on a downward trend. In 2016 there were 107,054 reported crimes, while in 2021, that number dropped to 91,483.
 - The most common reported offense is "Family Disturbance." Since 2016 there have been 69,469 reports. The next most reported crime is "Burglary of Vehicle," with 60,899 reports.
-- 
 - "Theft Catalytic Converter" has been a growing crime since 2021.  
 - Most reported crimes happen around Midnight and Noon. With the fewest in the early morning hours.  
 
