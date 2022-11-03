@@ -16,8 +16,9 @@
 ### Takeaways:
 - Reported crimes are on a downward trend. In 2016 there were 107,054 reported crimes, while in 2021, that number dropped to 91,483.
 - The most common reported offense is "Family Disturbance." Since 2016 there have been 69,469 reports. The next most reported crime is "Burglary of Vehicle," with 60,899 reports.
+- Crimes Against Property is the most common type of offense.  It makes up 43.14% of all reported crimes.
 - "Theft Catalytic Converter" has been a growing crime since 2021.  
-- Most reported crimes happen around Midnight and Noon. With the fewest in the early morning hours.  
+- Most reported crimes happen around 12 AM and 12 PM. With the fewest at 5 AM in the morning.  
 
 ### Recommendations:
 - Ensure that officers are adequately trained to handle "Family Disturbance" offenses. The City of Austin could look into using social workers in these instances.  
