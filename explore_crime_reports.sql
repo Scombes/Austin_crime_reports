@@ -1,18 +1,17 @@
 /*
-	CITY OF AUSTIN: CRIME REPORTS
+   CITY OF AUSTIN: CRIME REPORTS
     
     - Skills used: CTE's, Window Functions, Aggregate Functions, Creating Views
     
-    - Link to Tableau Dashboard: https://bit.ly/3DCHXJ9
-    - Link to data: https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu
     - Number of records: 672,579
     
     Questions:
     - What types of offenses happen the most?
-	- What time of day do most crimes happen?
-	- Is there seasonality?
-	- Are any types of crime on the rise?
-	- What are the most common offenses per year?
+    - What categories of crimes happen the most?
+    - What time of day do most crimes happen?
+    - Is there seasonality?
+    - Are any types of crime on the rise?
+    - What are the top 10 offenses per year?
 
 */
 
@@ -47,7 +46,7 @@ ORDER BY 1, 3 DESC
 /* 
 Categorize the offenses and determin what categories are most common and if there are any changes year to year
 - Categories:
-	- Crimes Against A Person: Crimes against a person are those that result in physical or mental harm to another person.
+    - Crimes Against A Person: Crimes against a person are those that result in physical or mental harm to another person.
     - Crimes Against Property: Crimes against property typically involve interference with the property of another party. Burglary, larceny, robbery ...etc
     - Statutory Crimes: Three significant types of statutory crimes are alcohol related crimes, drug crimes, traffic offenses
     - Financial Crimes:  Financial crimes often involve deception or fraud for financial gain.
