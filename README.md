@@ -5,28 +5,31 @@
 
 [View Tableau Dashboard](https://bit.ly/3DCHXJ9)
 
-### Process:
-1. Original download contained over 22 Million records. For this exploration, I decided to use only the last seven years. 
-2. Prepared/Cleaned the data to make it ready to load into MYSQL Database.
-    - Formatted date and datetime fields to work with MYSQL
-    - Removed fields not needed for exploration.
-3. Used a variety of queries and commands to explore the data further and find insights. [View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
-4. Used query results to help create visuals in Tableau.
 
-### Takeaways:
-- Reported crimes are on a downward trend. In 2016 there were 107,054 reported crimes, while in 2021, that number dropped to 91,483.
-- The most common reported offense is "Family Disturbance." Since 2016 there have been 69,469 reports. The next most reported crime is "Burglary of Vehicle," with 60,899 reports.
-- Crimes Against Property is the most common type of offense.  It makes up 43.14% of all reported crimes.
-- "Theft Catalytic Converter" has been a growing crime since 2021.  
-- Most reported crimes happen around 12 AM and 12 PM. With the fewest at 5 AM in the morning.  
+### Project Overview:
+The aim of this project was to explore and analyze reported crimes in the City of Austin, TX, using data provided by the city.
+
+### Data Processing:
+The original data download contained over 22 million records. For this analysis, the focus was narrowed to the last seven years. The data was then cleaned and prepared for loading into a MYSQL Database. The date and datetime fields were formatted to work with MYSQL, and fields not needed for exploration were removed.
+
+### Data Exploration:
+A variety of queries and commands were utilized to further explore the data and identify key insights, which were then utilized to create informative and visually-appealing visualizations in Tableau. [View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
+
+### Key Findings:
+- Reported crimes have been on a downward trend, with 91,483 crimes reported in 2021, compared to 107,054 in 2016. 
+- "Family Disturbance" is the most common reported offense, with 69,469 reports since 2016, followed by "Burglary of Vehicle," with 60,899 reports. 
+- Crimes Against Property make up 43.14% of all reported crimes. 
+- "Theft Catalytic Converter" has seen a recent uptick in reports. 
+- The majority of crimes occur at 12 AM and 12 PM, with the fewest reports at 5 AM.
 
 ### Recommendations:
-- Ensure that officers are adequately trained to handle "Family Disturbance" offenses. The City of Austin could look into using social workers in these instances.  
-- To help combat burglaries of vehicles:
-  - Increase surveillance in high-risk areas.
-  - Educate citizens on how to prevent this crime. 
-  - Warn citizens if they are in an area prone to this crime.
-- Make sure that there are adequate police officers available during peak report times, 12 AM and 12 PM. The best time to schedule a shift change is at 5 AM. This is when the least amount of reports come in. 
-- There needs to be increased police presence in the Downtown and the North Lamar Rundberg Neighborhoods. These two neighborhoods make up 11% of all reported crimes.
+Based on the findings, recommendations can be made to help combat specific types of crimes, such as burglaries of vehicles. These include increasing surveillance in high-risk areas, educating citizens on how to prevent this type of crime, warning citizens if they are in a high-risk area, and ensuring that adequate police officers are available during peak report times.
 
+In addition, the results suggest that there should be increased police presence in the Downtown and North Lamar Rundberg Neighborhoods, which make up 11% of all reported crimes. It is also recommended that officers are adequately trained to handle "Family Disturbance" offenses, and that the City of Austin could consider using social workers in these instances.
+
+### Tableau Visualization:
+To facilitate communication of the findings, an interactive Tableau dashboard was created to provide easily understandable visualizations of the data.
+
+Link to the Tableau Dashboard:
 [View Tableau Dashboard](https://bit.ly/3DCHXJ9)
+
