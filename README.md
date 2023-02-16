@@ -13,7 +13,13 @@ The aim of this project was to explore and analyze reported crimes in the City o
 The original data download contained over 22 million records. For this analysis, the focus was narrowed to the last seven years. The data was then cleaned and prepared for loading into a MYSQL Database. The date and datetime fields were formatted to work with MYSQL, and fields not needed for exploration were removed.
 
 ### Data Exploration:
-A variety of queries and commands were utilized to further explore the data and identify key insights, which were then utilized to create informative and visually-appealing visualizations in Tableau. [View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
+A variety of queries and commands were utilized to further explore the data and identify key insights, which were then utilized to create informative and visually-appealing visualizations in Tableau. Skills used: 
+- CTE's
+- Window Functions
+- Aggregate Functions
+- Creating Views
+
+[View MYSQL Queries](https://github.com/Scombes/Austin_crime_reports/blob/main/explore_crime_reports.sql)
 
 ### Key Findings:
 - Reported crimes have been on a downward trend, with 91,483 crimes reported in 2021, compared to 107,054 in 2016. 
